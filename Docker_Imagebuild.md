@@ -21,16 +21,19 @@ For example, if your Docker username was mobydock, you would run the following:
  ```
 To verify the image exists locally, you can use the docker image ls command:
 
-
+```bash
  docker image ls
+ ```
 You will see output similar to the following:
 
-
+```bash
 REPOSITORY                          TAG       IMAGE ID       CREATED          SIZE
 mobydock/getting-started-todo-app   latest    1543656c9290   2 minutes ago    1.12GB
+ ```
 ...
 To push the image, use the docker push command. Be sure to replace DOCKER_USERNAME with your username:
 
-
+```bash
  docker push DOCKER_USERNAME/getting-started-todo-app
+  ```
 Depending on your upload speeds, this may take a moment to push.
