@@ -5,15 +5,19 @@ To get started, either clone or download the project as a ZIP file to your local
 And after the project is cloned, navigate into the new directory created by the clone:
 
 
+   ```bash
  cd getting-started-todo-app
+```
 Build the project by running the following command, swapping out DOCKER_USERNAME with your username.
 
-
+ ```bash
  docker build -t DOCKER_USERNAME/getting-started-todo-app .
+ ```
 For example, if your Docker username was mobydock, you would run the following:
 
-
+ ```bash
  docker build -t mobydock/getting-started-todo-app .
+ ```
 To verify the image exists locally, you can use the docker image ls command:
 
 
