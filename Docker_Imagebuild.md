@@ -1,3 +1,4 @@
+### Docker Build Command
 To get started, either clone or download the project as a ZIP file to your local machine.
 
 
